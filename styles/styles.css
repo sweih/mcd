@@ -1,0 +1,14 @@
+body {
+    margin: 40px;
+    height: calc(100vh - 80px);
+    font-family: "Segoe UI Light", "Segoe UI", "Lucida Sans", Arial, sans-serif;
+}
+  
+.wrapper {
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col4-start] 1fr [col4-end];
+    grid-template-rows: [row1-start] 98px [row2-start] 1fr [row3-start] 1fr [row4-start] 1fr [row5-start] 1fr [row5-end];
+    color: #444;
+}
